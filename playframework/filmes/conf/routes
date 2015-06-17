@@ -10,8 +10,9 @@ GET     /about                       controllers.Application.sobre()
 
 #diretores
 GET    /diretores                   controllers.DiretorCRUD.list()
-GET    /novoDiretor                  controllers.DiretorCRUD.novoDiretor()
-GET    /detalhar                   controllers.DiretorCRUD.detalhar(id:Long)
+GET    /diretor/novo                controllers.DiretorCRUD.novoDiretor()
+GET    /detalhar                    controllers.DiretorCRUD.detalhar(id:Long)
+POST   /gravar                      controllers.DiretorCRUD.gravar()
 
 # Map static resources from the /public folder to the /assets URL path
 #GET     /assets/*file               controllers.Assets.versioned(path="/public", file:Asset)

@@ -4,15 +4,23 @@
 # --- !Ups
 
 create table director (
-  id                        bigserial not null,
+  id                        bigint not null,
   nome                      varchar(255),
   constraint pk_director primary key (id))
 ;
+
+create sequence director_seq;
 
 
 
 
 # --- !Downs
 
-drop table if exists director cascade;
+SET REFERENTIAL_INTEGRITY FALSE;
+
+drop table if exists director;
+
+SET REFERENTIAL_INTEGRITY TRUE;
+
+drop sequence if exists director_seq;
 

@@ -20,7 +20,7 @@ public class DiretorCRUD extends Controller {
 		Form<Director> form = diretorForm.bindFromRequest();
 		if (form.hasErrors()){
 			flash("Erro", "Foram identificados problemas no cadastro");
-			return ok(views.html.novoDiretor.render(diretorForm));
+			return ok(views.html.novo.render(diretorForm));
 		}	
 		List<Director> diretores = Director.finder.findList();
 		return ok(views.html.diretor.render(diretores));
