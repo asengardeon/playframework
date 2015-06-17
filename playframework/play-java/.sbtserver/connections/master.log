@@ -1,0 +1,37 @@
+New log file opened at Wed Jun 10 14:45:13 BRT 2015 by 4296@nbbnu007958
+Taking next connection to: 50349
+New client attempting to connect on port: 50352-50349
+  Address = /192.168.56.1:50349
+This client on port 50352 has uuid 3c0069c9-9857-4e7d-b63e-4330d74d99bb configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb
+Taking next connection to: 50349
+New client attempting to connect on port: 50353-50349
+  Address = /192.168.56.1:50349
+Handshake exception on socket: 50353
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 50349
+New client attempting to connect on port: 50354-50349
+  Address = /192.168.56.1:50349
+This client on port 50354 has uuid fc8b270b-f09e-44eb-9885-5f1f0cd8800a configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb, activator-fc8b270b-f09e-44eb-9885-5f1f0cd8800a
+Taking next connection to: 50349
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 4296@nbbnu007958 logs at Wed Jun 10 14:48:15 BRT 2015, goodbye.

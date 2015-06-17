@@ -1,0 +1,23 @@
+@(diretorForm: Form[Director]) @main("Novo Diretor"){
+<div class="container">
+	<div class="header">
+		<ul class="nav nav-pills pull-right">
+			<li><a href="/">Home </a></li>
+		</ul>
+	</div>
+</div>
+
+@helper.form(action=routes.DiretorCRUD.gravar()){
+<form class="from-horizontal">
+	<fieldset>
+		<legend>Novo Diretor</legend>
+		<div class="control-group">
+			<div class="controls">
+				@helper.inputText(diretorForm.nome)
+				<p class="help-block">Informe o nome do Diretor</p>
+			</div>
+		</div>
+	</fieldset>
+</form>
+}
+}

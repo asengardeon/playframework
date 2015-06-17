@@ -1,0 +1,48 @@
+New log file opened at Wed Jun 10 14:47:52 BRT 2015 by 1740@nbbnu007958
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(debug,sbt server socket logs are in: C:\projetos\playframework\play2-crud-activator\.sbtserver\connections\master.log))
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(debug,sbt general server logs are in: C:\projetos\playframework\play2-crud-activator\.sbtserver\master.log))
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(debug,sbt client logs are in: C:\projetos\playframework\play2-crud-activator\.sbtserver\connections\activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e.log))
+Reading next message from client.
+Got request: ListenToEvents()
+Reading next message from client.
+Got request: ListenToBuildChange()
+Reading next message from client.
+Got request: SendSyntheticBuildChanged()
+Reading next message from client.
+Got request: KeyLookupRequest(discoveredMainClasses)
+Reading next message from client.
+Got request: KeyLookupRequest(mainClass)
+Reading next message from client.
+Got request: KeyLookupRequest(echo:echoTraceSupported)
+Reading next message from client.
+Got request: KeyLookupRequest(echo:echoPlayVersionReport)
+Reading next message from client.
+Got request: KeyLookupRequest(echo:echoAkkaVersionReport)
+Reading next message from client.
+Got request: KeyLookupRequest(echo:echoTracePlayVersion)
+Reading next message from client.
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(debug,> --initialize))
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: (3,ReceivedResponse())
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(debug,> initialize))
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(debug,> onFailure load-failed))
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(debug,> boot))
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(debug,> reload))
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(debug,[Loading] Scanning directory C:\projetos\playframework\play2-crud-activator\project))
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(debug,[Loading] Found non-root projects ))
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(debug,[Loading] Done in C:\projetos\playframework\play2-crud-activator\project, returning: ()))
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(debug,deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))))
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(debug,  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(debug,sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(debug,  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(debug,  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(debug,  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(debug,  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()))
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(debug,  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(debug,[Loading] Done in C:\projetos\playframework\play2-crud-activator\project, returning: (play2-crud-activator-build)))
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogTrace(IllegalArgumentException,URI has an authority component))
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(error,java.lang.IllegalArgumentException: URI has an authority component))
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(error,Use 'last' for the full log.))
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(debug,> load-failed))
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(error,Failed to load project.))
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: BuildFailedToLoad()
+Sending msg to client activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e: DetachedLogEvent(LogMessage(debug,> server-wait-for-reboot))

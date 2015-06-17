@@ -1,0 +1,7 @@
+New log file opened at Wed Jun 10 14:47:51 BRT 2015 by 1740@nbbnu007958
+Taking next connection to: 50415
+New client attempting to connect on port: 50416-50415
+  Address = /192.168.56.1:50415
+This client on port 50416 has uuid 32ed95ba-aa4e-45a6-a722-c562f0f3309e configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-32ed95ba-aa4e-45a6-a722-c562f0f3309e
+Taking next connection to: 50415

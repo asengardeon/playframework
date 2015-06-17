@@ -1,0 +1,57 @@
+New log file opened at Wed Jun 10 14:45:15 BRT 2015 by 4296@nbbnu007958
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(debug,sbt server socket logs are in: C:\projetos\playframework\play-java\.sbtserver\connections\master.log))
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(debug,sbt general server logs are in: C:\projetos\playframework\play-java\.sbtserver\master.log))
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(debug,sbt client logs are in: C:\projetos\playframework\play-java\.sbtserver\connections\activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb.log))
+Reading next message from client.
+Got request: ListenToEvents()
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(debug,> --initialize))
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(debug,> initialize))
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(debug,> onFailure load-failed))
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(debug,> boot))
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(debug,> reload))
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(debug,[Loading] Scanning directory C:\projetos\playframework\play-java\project))
+Reading next message from client.
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: (3,ReceivedResponse())
+Got request: ListenToBuildChange()
+Reading next message from client.
+Got request: SendSyntheticBuildChanged()
+Reading next message from client.
+Got request: KeyLookupRequest(discoveredMainClasses)
+Reading next message from client.
+Got request: KeyLookupRequest(mainClass)
+Reading next message from client.
+Got request: KeyLookupRequest(echo:echoTraceSupported)
+Reading next message from client.
+Got request: KeyLookupRequest(echo:echoPlayVersionReport)
+Reading next message from client.
+Got request: KeyLookupRequest(echo:echoAkkaVersionReport)
+Reading next message from client.
+Got request: KeyLookupRequest(echo:echoTracePlayVersion)
+Reading next message from client.
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(debug,[Loading] Found non-root projects ))
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(debug,[Loading] Done in C:\projetos\playframework\play-java\project, returning: ()))
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(debug,deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))))
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(debug,  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(debug,sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(debug,  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(debug,  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(debug,  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(debug,  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()))
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(debug,  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(debug,[Loading] Done in C:\projetos\playframework\play-java\project, returning: (play-java-build)))
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogTrace(IllegalArgumentException,URI has an authority component))
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(error,java.lang.IllegalArgumentException: URI has an authority component))
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(error,Use 'last' for the full log.))
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(debug,> load-failed))
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(error,Failed to load project.))
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: BuildFailedToLoad()
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: DetachedLogEvent(LogMessage(debug,> server-wait-for-reboot))
+Got request: UnlistenToEvents()
+Reading next message from client.
+Sending msg to client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb: (12,ReceivedResponse())
+Got request: UnlistenToBuildChange()
+Reading next message from client.
+Client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb EOF, shutting down.
+Stopping client.
+Dropping message (0,ReceivedResponse()) to dead client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb
+Client activator-3c0069c9-9857-4e7d-b63e-4330d74d99bb thread exiting.
