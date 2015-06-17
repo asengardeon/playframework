@@ -1,3 +1,6 @@
+-> Roouter
+-> instalação
+-> Instalação do ebean. em que tem que adicionar o plugin, alterar o build.sdt, e executar o eclipse para ele importar os projetos para o eclipse. O pacote agora é com.avaje.ebean.Model;
 -> falar nas classes html tem que ter nome xpto.scala.html para a compilação encontrar o html do pacote view
 -> falar como ver no maven os plugins para o arquivo build.sbt. Assim fica fácil explicar como migrar o plugin para uma nova versão =).
 -> falar de manter o "play.evolutions.enabled=false" comentado quando alterar uma tabela e em seguida criar descomentar. Pois se não o playframework não cria a tabela.
