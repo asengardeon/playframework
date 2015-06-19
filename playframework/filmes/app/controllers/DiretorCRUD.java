@@ -11,13 +11,14 @@ public class DiretorCRUD extends Controller {
 	
 	private static final Form<Director> diretorForm = Form.form(Director.class);
 
+		
 	public Result list(){
 		List<Director> diretores = Director.finder.findList();
 		return ok(views.html.diretor.render(diretores));
 	}
 	
 	public Result novoDiretor(){
-		Form<Director> form = diretorForm.bindFromRequest();
+		Form<Director> form = diretorForm.bindFromRequest();	
 		if (form.hasErrors()){
 			flash("Erro", "Foram identificados problemas no cadastro");
 			return ok(views.html.novo.render(diretorForm));
@@ -34,7 +35,21 @@ public class DiretorCRUD extends Controller {
 		return redirect(routes.DiretorCRUD.list());
 	}
 	
+	public Result alterar(Long id){
+		diretorForm.fill(Director.finder.byId(id));
+		Form<Director> alterarform = diretorForm.bindFromRequest();
+		if(alterarform.hasErrors()){
+			return badRequest(views.html.alterarDiretor.render(id, alterarform));			
+		}
+		alterarform.get().update();
+		flash("sucesso", "Diretor "+alterarform.get().nome+" alterado com sucesso");
+		return redirect(routes.DiretorCRUD.list());
+		
+		
+	}
+	
 	public Result detalhar(Long id){
-		return TODO;
+		diretorForm.fill(Director.finder.byId(id));
+		return ok(views.html.alterarDiretor.render(id, diretorForm));
 	}
 }
