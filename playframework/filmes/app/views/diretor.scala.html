@@ -10,12 +10,14 @@
 		</ul>
 		<h3 class="text-muted">Diretores</h3>
 	</div>
-	<table class="table table-stripped table-bordered" id="example"
+	<table class="table table-stripped" id="example"
 		cellpadding="0" cellspacing="0" border="0" width="100%">
 		<tfoot>
 			@for(diretor <- diretores){
 			<tr>
-				<th>G <a href="@routes.DiretorCRUD.detalhar(diretor.id)">@diretor.nome</a>
+				<th><a href="@routes.DiretorCRUD.detalhar(diretor.id)">@diretor.nome</a>
+				</th>
+				<th><a href="@routes.DiretorCRUD.deletar(diretor.id)"><span class="glyphicon glyphicon glyphicon-remove" aria-hidden="true"></span></a>
 				</th>
 			</tr>
 			}

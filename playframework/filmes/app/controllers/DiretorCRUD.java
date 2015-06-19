@@ -52,4 +52,11 @@ public class DiretorCRUD extends Controller {
 		diretorForm.fill(Director.finder.byId(id));
 		return ok(views.html.alterarDiretor.render(id, diretorForm));
 	}
+	
+	public Result deletar(Long id){
+		Director.finder.ref(id).delete();
+		flash("sucesso", "Diretor removido com sucesso");
+		return redirect(routes.DiretorCRUD.list());
+	}
+	
 }

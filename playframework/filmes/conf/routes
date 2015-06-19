@@ -14,6 +14,7 @@ GET    /diretor/novo                controllers.DiretorCRUD.novoDiretor()
 GET    /detalhar                    controllers.DiretorCRUD.detalhar(id:Long)
 POST   /gravar                      controllers.DiretorCRUD.gravar()
 POST   /diretor/:id                 controllers.DiretorCRUD.alterar(id:Long)
+GET    /diretor/:id/deletar         controllers.DiretorCRUD.deletar(id:Long)
 GET    /diretor/:id                 controllers.DiretorCRUD.detalhar(id:Long)
 
 # Map static resources from the /public folder to the /assets URL path
